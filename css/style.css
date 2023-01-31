@@ -1,0 +1,333 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header_section-style-start-hear */
+#header_section{
+    background-image: url('../images/banner/banner1.png');
+    
+    background-size: 100% 500px;
+   background-repeat: no-repeat;
+}
+.header_text{
+    text-align: right;
+    padding: 100px 0px;
+}
+.header_title{
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.header_p{
+    text-align: right;
+    font-size: 15px;
+}
+.header_btn{
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: coral;
+    text-transform: capitalize;
+}
+/* header_section-style-end-hear */
+/* failures_section-style-start-hear */
+.failures_text{
+    padding: 100px 0px;
+}
+.failures_title{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 20px;
+}
+.failures_p{
+    padding: 20px 20px;
+}
+.failures_img{
+    padding: 50px 50px;
+}
+.failures_img img{
+    width: 100%;
+    height: 100%;
+}
+.failures_chack a{
+    color: green;
+    padding: 5px;
+    font-size: 18px;
+}
+.failures_chack{
+   padding: 5px;
+    font-size: 14px;
+}
+
+/* failures_section-style-end-hear */
+
+/* plans_section-stale-start-hear */
+#plans_section{
+    padding: 80px 0px;
+}
+.section_title{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 30px;
+}
+.web_development{
+    text-align: center;
+}
+.web_development img{
+    width: 60px;
+    height: 60px;
+}
+.web_development h2{
+    font-weight: 700;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.web_development h4{
+    font-size: 15px;
+    color: gray;
+    text-transform: capitalize;
+}
+/* plans_section-style-end-hear */
+
+/* positive_section-style-start-hear */
+#positive_section{
+    padding-bottom: 50px;
+   
+}
+.positive_area{
+    background-image: url('../images/gradient2.png'),url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    padding: 60px 40px;
+    border-radius: 10px;
+
+}
+.positive_area h2{
+    padding: 20px 0px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.positive_ptn{
+    background-color: #fff;
+    color:coral;
+    padding: 10px 15px;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+/* positive_section-style-end-hear */
+/* footer_section-style-start-hear */
+#footer_section{
+    background-color: black;
+    
+}
+
+.future_area{
+    padding: 50px 0px;
+}
+.future_area h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #fff;
+}
+.future_area p{
+    color:grey;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding-right:  150px;
+}
+.future_area h5{
+    color:grey;
+    font-size: 15px;
+}
+.future_area img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.subscribe_area{
+    padding: 50px 0px;
+    padding-left: 130px;
+
+}
+.subscribe_area h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #fff;
+}
+.subscribe_area input{
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    background-color: #000;
+    color:#fff;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+/* footer_section-style-end-hear */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* header_section-style-start-hear */
+#header_section{
+    background-image: url('../images/banner/banner1.png');
+    
+    background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.header_text{
+    text-align: right;
+    padding: 50px 0px;
+}
+.header_title{
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+/* header_section-style-end-hear */
+
+.failures_img{
+    padding: 10px 10px;
+}
+.failures_img img{
+    width: 100%;
+    height: 100%;
+}
+.future_area{
+    padding: 50px 10px;
+}
+.future_area h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #fff;
+}
+.future_area p{
+    color:grey;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding-right:  10px;
+}
+.future_area h5{
+    color:grey;
+    font-size: 15px;
+}
+.future_area img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.subscribe_area{
+    padding: 50px 0px;
+    padding-left: 20px;
+
+}
+.subscribe_area h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #fff;
+}
+.subscribe_area input{
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    background-color: #000;
+    color:#fff;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* header_section-style-start-hear */
+#header_section{
+    background-image: url('../images/banner/banner1.png');
+    
+    background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.header_text{
+    text-align: right;
+    padding: 50px 0px;
+}
+.header_title{
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+/* header_section-style-end-hear */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* header_section-style-start-hear */
+#header_section{
+    background-image: url('../images/banner/banner1.png');
+    
+    background-size: 100% 500px;
+   background-repeat: no-repeat;
+}
+.header_text{
+    text-align: right;
+    padding: 100px 0px;
+}
+.header_title{
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+/* header_section-style-end-hear */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* header_section-style-start-hear */
+#header_section{
+    background-image: url('../images/banner/banner1.png');
+    
+    background-size: 100% 500px;
+   background-repeat: no-repeat;
+}
+.header_text{
+    text-align: right;
+    padding: 100px 0px;
+}
+.header_title{
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+/* header_section-style-end-hear */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* header_section-style-start-hear */
+#header_section{
+    background-image: url('../images/banner/banner1.png');
+    
+    background-size: 100% 500px;
+   background-repeat: no-repeat;
+}
+.header_text{
+    text-align: right;
+    padding: 100px 0px;
+}
+.header_title{
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+/* header_section-style-end-hear */
+}
